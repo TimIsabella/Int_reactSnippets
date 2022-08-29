@@ -18,5 +18,5 @@ website scraping, official results, and traditional data entry, the folling are 
 ## Party edit: card logo background color change
 ![Int5](https://github.com/TimIsabella/Int_reactSnippets/blob/main/I5.png)
 
-## Party edit: coalition member drag and drop functionality
+## Party edit: off-canvas coalition member drag and drop functionality
 ![Int6](https://github.com/TimIsabella/Int_reactSnippets/blob/main/I6.png)
