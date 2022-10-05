@@ -1,5 +1,4 @@
 import React from 'react';
-import debug from 'snippet-debug';
 import Pagination from 'react-bootstrap/Pagination';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
@@ -14,9 +13,6 @@ import SnippetCard from './Snippetard';
 import ModalNewCard from './ModalNewCard';
 
 const SnippetCardPagination = () => {
-    const _logger = debug.extend('Snippets - CardPagination');
-    _logger('!RUNNING!');
-
     const pageQty = 12;
     const [paramsState, setParamsState] = React.useState({ pageIndex: 0, pageSize: pageQty, query: '' });
     const [radioValueState, setRadioValueState] = React.useState('1');
