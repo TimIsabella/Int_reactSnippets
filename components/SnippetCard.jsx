@@ -1,5 +1,4 @@
 import React from 'react';
-import debug from 'snippet-debug';
 import PropTypes from 'prop-types';
 import { Card } from 'react-bootstrap';
 import classNames from 'classnames';
@@ -7,8 +6,6 @@ import ModalEditCard from './ModalEditCard';
 import SnippetCardMiniPagination from './SnippetCardMiniPagination';
 
 const SnippetCard = (props) => {
-    const _logger = debug.extend('Snippets - Card');
-    _logger('!RUNNING!');
 
     return (
         <>
