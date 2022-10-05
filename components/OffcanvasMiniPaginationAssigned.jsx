@@ -1,13 +1,9 @@
 import React from 'react';
-import debug from 'snippet-debug';
 import PropTypes from 'prop-types';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
 
 const OffcanvasMiniPaginationAssigned = ({ drag, ...props }) => {
-    const _logger = debug.extend('Snippets - OffcanvasMiniPaginationAssigned');
-    _logger('!Running!');
-
     React.useEffect(() => {
         if (props.members) setPaginatedState(props.members);
     }, []);
