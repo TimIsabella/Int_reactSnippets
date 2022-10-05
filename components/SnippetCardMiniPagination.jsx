@@ -1,13 +1,9 @@
 import React from 'react';
-import debug from 'snippet-debug';
 import PropTypes from 'prop-types';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
 
 const SnippetCardMiniPagination = (props) => {
-    const _logger = debug.extend('Snippets - CardMiniPagination');
-    _logger('!RUNNING!');
-
     React.useEffect(() => {
         if (props.members) setPaginatedState(props.members);
     }, []);
