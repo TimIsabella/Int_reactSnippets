@@ -1,5 +1,4 @@
 import React from 'react';
-import debug from 'snippet-debug';
 import PropTypes from 'prop-types';
 import 'toastr/build/toastr.css';
 import toastr from 'toastr';
@@ -10,9 +9,6 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
 
 const OffcanvasMiniPaginationAvailable = ({ drag, ...props }) => {
-    const _logger = debug.extend('Snippets - OffcanvasMiniPaginationAvailable');
-    _logger('!Running!');
-
     React.useEffect(() => {
         setSpinnyState(true);
 
