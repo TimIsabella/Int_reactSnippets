@@ -15,7 +15,6 @@ import OffcanvasWindow from './OffcanvasWindow';
 import getLookUps from '../../services/lookUpsService';
 
 const ModalWindow = ({ props, setOpen }) => {
-
     React.useEffect(() => {
         setSpinnyState(true);
 
