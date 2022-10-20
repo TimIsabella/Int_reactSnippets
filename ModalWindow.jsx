@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import debug from 'snippet-debug';
 import payloadModel from './other/payloadModel';
 import ReactDOM from 'react-dom';
 import { Button, Form, OverlayTrigger, Popover } from 'react-bootstrap';
@@ -16,8 +15,6 @@ import OffcanvasWindow from './OffcanvasWindow';
 import getLookUps from '../../services/lookUpsService';
 
 const ModalWindow = ({ props, setOpen }) => {
-    const _logger = debug.extend('Snippets - ModalWindow');
-    _logger('!RUNNING!');
 
     React.useEffect(() => {
         setSpinnyState(true);
